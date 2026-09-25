@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="description"
+    content="A very important question."
+  >
+
+  <meta
+    name="theme-color"
+    content="#ff4f87"
+  >
+
+  <title>One Very Important Question 💗</title>
+
+  <link
+    rel="icon"
+    type="image/svg+xml"
+    href="./favicon.svg"
+  >
+
+<link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+  <!-- Ambient background -->
+  <div class="ambient">
+
+    <div class="orb orb-one"></div>
+    <div class="orb orb-two"></div>
+    <div class="orb orb-three"></div>
+
+  </div>
+
+  <!-- Floating particles -->
+  <div
+    id="particles"
+    class="particles"
+    aria-hidden="true"
+  ></div>
+
+  <!-- Main application -->
+  <main class="app">
+
+    <section
+      id="card"
+      class="card"
+    >
+
+      <!-- Question -->
+      <div
+        id="question-screen"
+        class="screen active"
+      >
+
+        <div class="eyebrow">
+          hey... 👉👈
+        </div>
+
+        <div class="big-heart">
+          💗
+        </div>
+
+        <h1>
+          I really like you.
+        </h1>
+
+        <p class="subtitle">
+          soooo uh...
+        </p>
+
+        <p class="question">
+          wanna go on a date with me?
+        </p>
+
+        <div
+          id="button-area"
+          class="buttons"
+        >
+
+          <button
+            id="yes-button"
+            class="btn yes"
+            type="button"
+          >
+            YES 💕
+          </button>
+
+          <button
+            id="no-button"
+            class="btn no"
+            type="button"
+          >
+            no
+          </button>
+
+        </div>
+
+        <p
+          id="no-message"
+          class="no-message"
+        ></p>
+
+      </div>
+
+      <!-- Place -->
+      <div
+        id="place-screen"
+        class="screen"
+      >
+
+        <div class="step">
+          STEP 1 / 3
+        </div>
+
+        <div class="icon">
+          📍
+        </div>
+
+        <h2>
+          Where are we going?
+        </h2>
+
+        <p>
+          Pick somewhere you'd actually enjoy.
+        </p>
+
+        <input
+          id="place-input"
+          type="text"
+          maxlength="150"
+          placeholder="e.g. that cute little café"
+          autocomplete="off"
+        >
+
+        <button
+          id="place-next"
+          class="btn primary"
+          type="button"
+        >
+          Continue →
+        </button>
+
+      </div>
+
+      <!-- Date -->
+      <div
+        id="date-screen"
+        class="screen"
+      >
+
+        <div class="step">
+          STEP 2 / 3
+        </div>
+
+        <div class="icon">
+          🗓️
+        </div>
+
+        <h2>
+          When?
+        </h2>
+
+        <p>
+          Choose a day that works for you.
+        </p>
+
+        <input
+          id="date-input"
+          type="date"
+        >
+
+        <button
+          id="date-next"
+          class="btn primary"
+          type="button"
+        >
+          Continue →
+        </button>
+
+      </div>
+
+      <!-- Time -->
+      <div
+        id="time-screen"
+        class="screen"
+      >
+
+        <div class="step">
+          STEP 3 / 3
+        </div>
+
+        <div class="icon">
+          🕐
+        </div>
+
+        <h2>
+          What time?
+        </h2>
+
+        <p>
+          And we're officially making plans.
+        </p>
+
+        <input
+          id="time-input"
+          type="time"
+        >
+
+        <button
+          id="time-submit"
+          class="btn primary"
+          type="button"
+        >
+          Make it official 💗
+        </button>
+
+      </div>
+
+      <!-- Final -->
+      <div
+        id="final-screen"
+        class="screen"
+      >
+
+        <div class="celebration-heart">
+          💖
+        </div>
+
+        <div class="eyebrow">
+          OFFICIAL
+        </div>
+
+        <h2>
+          IT'S A DATE.
+        </h2>
+
+        <p class="final-subtitle">
+          okay this is actually happening 😭
+        </p>
+
+        <div class="date-details">
+
+          <div class="detail">
+            <span>📍</span>
+
+            <div>
+              <small>PLACE</small>
+              <strong id="final-place"></strong>
+            </div>
+          </div>
+
+          <div class="detail">
+            <span>🗓️</span>
+
+            <div>
+              <small>DATE</small>
+              <strong id="final-date"></strong>
+            </div>
+          </div>
+
+          <div class="detail">
+            <span>🕐</span>
+
+            <div>
+              <small>TIME</small>
+              <strong id="final-time"></strong>
+            </div>
+          </div>
+
+        </div>
+
+        <p class="tiny">
+          Can't wait to see you. 💕
+        </p>
+
+      </div>
+
+    </section>
+
+  </main>
+
+<script src="./script.js"></script>
+
+</body>
+</html>

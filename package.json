@@ -1,0 +1,15 @@
+{
+  "name": "date-invitation",
+  "version": "1.0.0",
+  "description": "A romantic interactive date invitation website.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "node --watch server/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0"
+  }
+}
